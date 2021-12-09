@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <app-form class="form" id="form" (newUserEvent)="addUser($event)"></app-form>
+  <app-table class="table" id="table" [users]="users"></app-table>
+</div>
+
+<router-outlet></router-outlet>

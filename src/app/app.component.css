@@ -1,0 +1,30 @@
+
+.wrapper {
+  overflow:hidden;
+  margin: 12px;
+}
+
+
+#form {
+  float:left;
+  margin-right:20px;
+  width:40%;
+  max-width: 40%;
+  border-right:2px solid #000;
+}
+#table {
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+}
+
+@media screen and (max-width: 400px) {
+   #form {
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;
+  }
+}

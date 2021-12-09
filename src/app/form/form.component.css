@@ -1,0 +1,10 @@
+
+label {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+select, input {
+  width: 80%;
+  margin-left: 10px;
+}
