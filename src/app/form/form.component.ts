@@ -38,8 +38,7 @@ export class FormComponent implements OnInit {
       },
       err => {
         return console.error(err);
-      },
-      () => console.log('done loading foods')
+      }
     );
   }
 

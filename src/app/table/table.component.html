@@ -13,6 +13,7 @@
         <th scope="col">Prenom</th>
         <th scope="col">Telephone</th>
         <th scope="col">Region</th>
+        <th scope="col">Supprimer</th>
       </tr>
     </thead>
     <tbody>
@@ -22,6 +23,9 @@
         <td>{{user.lastName}}</td>
         <td>{{user.phone}}</td>
         <td>{{user.region}}</td>
+        <td>
+          <button type="button" class="btn btn-danger btn-delete" (click)="delete(i)">X</button>
+        </td>
       </tr>
     </tbody>
   </table>

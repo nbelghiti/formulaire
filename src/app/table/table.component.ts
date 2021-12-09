@@ -13,4 +13,10 @@ export class TableComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // tslint:disable-next-line:typedef
+  delete(index){
+    this.users.splice(index, 1);
+    localStorage.setItem('users', JSON.stringify(this.users) );
+  }
+
 }
